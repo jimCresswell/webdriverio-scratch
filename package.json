@@ -1,0 +1,27 @@
+{
+  "name": "wdio_scratch",
+  "version": "0.0.1",
+  "description": "WedbdriverIO playground",
+  "main": " ",
+  "scripts": {
+    "test": "wdio run wdio.conf.js"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">= 14"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/register": "^7.17.7",
+    "@wdio/allure-reporter": "^7.19.5",
+    "@wdio/cli": "^7.19.6",
+    "@wdio/cucumber-framework": "^7.19.5",
+    "@wdio/local-runner": "^7.19.5",
+    "@wdio/spec-reporter": "^7.19.5",
+    "chromedriver": "^100.0.0",
+    "wdio-chromedriver-service": "^7.3.2",
+    "wdio-wait-for": "^2.2.6"
+  }
+}
