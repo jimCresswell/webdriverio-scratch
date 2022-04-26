@@ -3,3 +3,5 @@ node_modules
 
 # test reports
 allure-results
+reports
+cucumber-json

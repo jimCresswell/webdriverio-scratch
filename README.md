@@ -10,6 +10,10 @@ Your system must have [Node 14 or later installed](https://nodejs.org/en/), and 
 
 To run the tests use `npm install` then `npm test`.
 
+### Reports
+
+Reports are written to stdout using the spec reporter, [`./allure-results`](./allure-results/) using the Allure reporter (compatible with Allure report display tools), and [`cucumber-json`](./cucumber-json/) using the CucumberJS-Json reporter.
+
 ## Structure
 
 Feature files live under [`./features`](./features/), the step definitions that run the feature steps against the system-under-test live in [`./features/step-definitions`](./features/step-definitions/), and the page objects that encapsulate page interactions (to keep the step definitions readable and the tests maintainable) live under [`./features/pageobjects`](./features/pageobjects/).
